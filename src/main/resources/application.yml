@@ -1,0 +1,27 @@
+server:
+  port: ${MS_PORT:8888}
+  
+management:
+  context-path: /admin
+
+logging:
+  level:
+    com.netflix.discovery: 'ERROR'
+    org.springframework.cloud: 'DEBUG'
+    org.springframework.cloud.config.server: 'DEBUG'
+    
+spring:
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          # Checkout ourselfs for the sake of the demo
+          uri: https://github.com/jgolubenko/ms-server-config-demo
+          #password: 
+          #username: 
+          clone-on-start: true
+          #basedir: cloud-config/
+
+  
+    
