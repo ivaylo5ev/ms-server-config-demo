@@ -40,9 +40,8 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-devtools")
     
     compile('org.springframework.cloud:spring-cloud-config-server')
-    compile('org.springframework.security:spring-security-rsa') // support for {cipher}* values, JCE full strenght is required!
+    compile('org.springframework.security:spring-security-rsa') // support for {cipher}* enc/dec
     
-    compile("org.springframework.cloud:spring-cloud-starter-eureka")
     compile('org.springframework.boot:spring-boot-starter-actuator')
     
     
