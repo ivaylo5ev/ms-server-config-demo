@@ -1,3 +1,5 @@
+package com.jgolubenko.ms.server.config.controllers
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.web.bind.annotation.RequestMapping;
