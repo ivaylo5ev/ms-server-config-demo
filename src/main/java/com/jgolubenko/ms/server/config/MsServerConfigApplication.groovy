@@ -20,7 +20,6 @@ import com.jgolubenko.ms.server.config.MsServerConfigApplication;
  */
 @SpringBootApplication
 @EnableConfigServer
-@EnableDiscoveryClient
 @EnableAutoConfiguration
 @Configuration
 @Slf4j
